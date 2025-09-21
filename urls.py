@@ -1,0 +1,10 @@
+class Urls:
+    BASE_URL = 'http://qa-scooter.praktikum-services.ru'
+    URL_CREATE_COURIER = f'{BASE_URL}/api/v1/courier'
+    URL_LOGIN_COURIER = f'{BASE_URL}/api/v1/courier/login'
+    URL_DELETE_COURIER = f'{BASE_URL}/api/v1/courier/'
+    URL_CREATE_ORDER = f'{BASE_URL}/api/v1/orders'
+    URL_LIST_ORDERS = f'{BASE_URL}/api/v1/orders'
+    URL_ACCEPT_ORDER = f'{BASE_URL}/api/v1/orders/accept/'
+    URL_CANCEL_ORDER = f'{BASE_URL}/api/v1/orders/cancel'
+    URL_GET_ORDER_BY_ID = f'{BASE_URL}/api/v1/orders/track'
