@@ -1,5 +1,3 @@
-import re
-from tkinter import Y
 import requests
 import pytest
 import json

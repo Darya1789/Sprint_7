@@ -1,9 +1,7 @@
-import pytest
 import requests
 import allure
-import json
 from urls import Urls
-from data import Order, RequestsAnswer
+from data import RequestsAnswer
 
 class TestGetOrder:
 
